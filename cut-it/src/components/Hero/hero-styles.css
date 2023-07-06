@@ -1,0 +1,77 @@
+.hero-box {
+  background-image: url(/public/bg-gif.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.hero-logo {
+  width: 350px;
+  position: absolute;
+  top: 20%;
+}
+
+.slogan {
+  color: rgb(255, 255, 255) !important ;
+  font-size: 3rem;
+  margin-top: 350px;
+  text-shadow: 5px 5px rgb(0, 0, 0);
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .slogan {
+    font-size: 1.7rem;
+  }
+}
+
+.hero-footer {
+  height: 20vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-footer-box {
+  width: 33vw;
+  height: 20vh;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.box-title {
+  font-size: 1.3rem;
+
+  text-align: center;
+}
+
+.outside-box-footer {
+  width: 100vw;
+  border-top: 1px solid rgba(255, 255, 255, 0.31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.442);
+}
+
+.box1,
+.box2 {
+  border-right: 1px solid rgba(255, 255, 255, 0.31);
+}
