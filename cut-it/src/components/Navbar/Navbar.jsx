@@ -32,7 +32,7 @@ export default function MenuAppBar() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box position={"fixed"} sx={{ flexGrow: 1 }}>
       <AppBar className="bar">
         <Toolbar>
           <Menu />

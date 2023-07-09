@@ -1,0 +1,19 @@
+.services-box {
+  height: 40vh;
+  background-color: white;
+  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-services {
+  text-align: center;
+}
+
+.services-box h3 {
+  color: rgb(92, 92, 92);
+  font-weight: 400;
+  font-size: 1rem;
+}

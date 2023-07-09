@@ -1,5 +1,5 @@
 .hero-box {
-  background-image: url(/public/bg-gif.webp);
+  background-image: url(/public/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -32,9 +32,43 @@
   text-align: center;
 }
 
+@media (min-width: 501px) and (max-width: 700px) {
+  .slogan {
+    font-size: 2rem;
+  }
+
+  .box1 {
+    display: none;
+  }
+
+
+}
+
 @media (max-width: 500px) {
   .slogan {
     font-size: 1.7rem;
+  }
+  .hero-footer-box {
+    font-size: 0.7rem !important;
+    padding: 0 10px 5px;
+    margin-bottom: 10px;
+  }
+
+  .outside-box-footer {
+    width: 100vw !important;
+    margin-bottom: 5%;
+  }
+
+  .box1 {
+    display: none;
+  }
+
+  .box-title {
+    font-size: 0.8rem !important;
+  }
+  .p-box {
+    font-size: 0.7rem;
+    text-align: center;
   }
 }
 
@@ -43,7 +77,7 @@
   width: 80vw;
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
   color: white;
 }
 
@@ -74,4 +108,9 @@
 .box1,
 .box2 {
   border-right: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.a-box {
+  text-decoration: underline;
+  color: rgb(82, 82, 226);
 }

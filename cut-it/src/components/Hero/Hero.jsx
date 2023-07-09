@@ -13,27 +13,38 @@ function Hero() {
       <Box className="outside-box-footer">
         <Box className="hero-footer">
           <Box className="hero-footer-box box1">
-            <h3 className="box-title">Morada</h3>
-            <address style={{ fontStyle: "normal" }}>
+            <h3 className="box-title box-title1">Morada</h3>
+            <address className="p-box" style={{ fontStyle: "normal" }}>
               Avenida José Abelhudo, 171. <br />
               Paço De Arcos, Oeiras. 1148-204.
             </address>
           </Box>
           <Box className="hero-footer-box box2">
-            <h3 className="box-title">Agendamento online</h3>
-            <p>
+            <h3 className="box-title">Agendamento</h3>
+            <p className="p-box">
               {" "}
-              <a href="#">Clica aqui</a> para efetuar um
+              <a className="a-box" href="#">
+                Clica aqui
+              </a>{" "}
+              para efetuar um
               <br /> agendamento online
             </p>
           </Box>
           <Box className="hero-footer-box box3">
-            <h3 className="box-title">Horário de funcionamento</h3>
-            <time itemprop="openingHours" datetime="Mo-Fr 09:00-18:00">
+            <h3 className="box-title">Horário</h3>
+            <time
+              className="p-box"
+              itemprop="openingHours"
+              dateTime="Mo-Fr 09:00-18:00"
+            >
               Segunda a Sexta, das 09:00 às 18:00
             </time>
             <br />
-            <time itemprop="openingHours" datetime="Sa 09:00-13:00">
+            <time
+              className="p-box"
+              itemprop="openingHours"
+              dateTime="Sa 09:00-13:00"
+            >
               Sábado, das 09:00 às 13:00
             </time>
           </Box>
