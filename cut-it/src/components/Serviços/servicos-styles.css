@@ -1,19 +1,115 @@
 .services-box {
-  height: 40vh;
+  height: 100%;
+  width: 100vw;
   background-color: white;
-  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-services {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: -15%;
 }
 
-.title-services {
-  text-align: center;
+.title-services h1 {
+  font-size: 3rem;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
 
 .services-box h3 {
   color: rgb(92, 92, 92);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.price-list {
+  margin-top: 3%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 40vw;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(181, 181, 181);
+}
+
+.price-box p {
+  font-weight: 300;
+}
+.price-box h3 {
   font-weight: 400;
-  font-size: 1rem;
+  color: #d6a354;
+}
+
+.price-box p span {
+  font-weight: 300;
+  font-size: smaller;
+}
+
+.costumer-box {
+  height: 120vh;
+  width: 65%;
+}
+
+.costumer-box img {
+  height: 100%;
+  width: 90%;
+}
+
+.price-list-button button {
+  font-size: 1.3rem;
+  background-color: #d6a354;
+  border: none;
+  width: 40%;
+  margin-top: 3%;
+  padding: 10px;
+}
+
+.box-out-prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .costumer-box {
+    display: none;
+  }
+
+  .price-list {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+  }
+  .services-box {
+    height: 100%;
+    padding: 10px 0px 50px;
+  }
+
+  .price-list-button {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price-list-button button {
+    padding: 2px;
+    width: 60%;
+  }
 }

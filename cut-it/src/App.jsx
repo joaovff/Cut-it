@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Carousel from "./components/Carousel/Carousel";
 import Servicos from "./components/Serviços/Servicos";
 import GoogleMapsApi from "./components/GoogleMapsApi/GoogleMapsApi";
+import Agendamento from "./components/Agendamento/Agendamento";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Carousel />
       <Servicos />
+      <Agendamento/>
       <GoogleMapsApi />
     </div>
   );

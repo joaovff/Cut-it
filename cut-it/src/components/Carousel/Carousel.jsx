@@ -56,9 +56,7 @@ function Carousel() {
       width={"100%"}
     />,
   ];
-  /*   const Gallery = () => {
-    return <AliceCarousel mouseTracking items={items} />;
-  }; */
+
   return (
     <AliceCarousel
       disableButtonsControls={"false"}
@@ -78,6 +76,9 @@ function Carousel() {
       }}
       mouseTracking
       items={items}
+      autoPlay={"true"}
+      autoPlayInterval={"800"}
+      
     />
   );
 }
